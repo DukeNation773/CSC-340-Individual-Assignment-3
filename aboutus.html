@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aboutus</title>
+</head>
+
+<style>
+    body{
+            margin: 0px;
+            background-color: darkslategrey;
+            color: white;
+        }
+        main{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: x-large;
+        }
+        .navbar ul{
+            list-style-type: none;
+            background-color: rgb(36, 63, 63);
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: hsl(0, 0%, 10%);
+            color: cyan;
+        }
+        .navbar li{
+            float: left;
+        }
+
+        .banner {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .aboutus {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            width: 85%;
+        }
+
+        .werehiring {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            width: 85%;
+        }
+
+        #logo{
+            height:20px;
+            display: flex;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+
+        .apply {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+</style>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><img  id = "logo" src="./Images/logo.png" alt ="logo"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>
+        About Us
+    </h1>
+
+    <div class="container">
+        <img src="./Images/banner.jpg" class="banner" height="200" width="1000" />
+        <div class="centered">Anybody want a cool <br> monitor</div>
+    </div>
+
+    <P class="aboutus">
+        Welcome to Cool Monitors, your go-to destination for top-quality monitors in Greensboro, North Carolina! Nestled in the heart of Greensboro,
+         our store is dedicated to providing customers with a diverse selection of monitors tailored to their needs. Whether you're a gamer seeking 
+         high-performance displays or a professional in search of productivity-enhancing monitors, we have something for everyone. Our knowledgeable 
+         staff is committed to offering expert guidance and exceptional customer service to ensure that you find the perfect monitor to meet your 
+         requirements. With our focus on quality, innovation, and customer satisfaction, Cool Monitors is your premier choice for all your monitor
+          needs in Greensboro and beyond.
+    </P>
+
+    <p class="werehiring">
+        We are currently looking to exapand the Cool Monitors family! Click the link <a href="careers.html" class="herelink"> Here</a> 
+        or clcik the "Careers" tab in the navigation bar to see what positions are open. Posistions fill up fast, so don't wait! 
+    </p>
+
+    <img src="./Images/apply.png" class="apply" height="250"; width="350";/>
+    
+</body>
+</html>
